@@ -8,9 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class WelcomeController 
 {
 	@RequestMapping(value="/test")
-	public	ModelAndView	sayWelcome()
+	public	ModelAndView	sayWelcomeMsg()
 	{
-		ModelAndView	mav = new	ModelAndView("welcome","msg","welcome to spring mvc");
+		ModelAndView	mav = new	ModelAndView("welcome","msg","Welcome to Spring MVC");
 		return mav;
 	}
 	
